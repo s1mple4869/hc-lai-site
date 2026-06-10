@@ -169,7 +169,7 @@
   margin: 0 auto;
   padding: 0 24px;
   text-rendering: optimizeLegibility;
-  font-family: 'NumDigitsOnly', Georgia, 'Noto Serif SC', serif;
+  font-family: 'NumDigitsOnly', Georgia, 'LXGW WenKai Screen', 'Noto Serif SC', serif;
 }
 
 /* H2 — Geist SemiBold (English) + Noto Sans SC Bold (Chinese) */
@@ -197,7 +197,7 @@
 
 /* Body — Georgia (English serif) + Noto Serif SC (CJK serif), 400, 17px */
 .prose-works p {
-  font-family: 'NumDigitsOnly', Georgia, 'Noto Serif SC', serif;
+  font-family: 'NumDigitsOnly', Georgia, 'LXGW WenKai Screen', 'Noto Serif SC', serif;
   font-weight: 400;
   font-size: 17px;
   line-height: 1.85;
@@ -211,7 +211,7 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
-  font-family: 'NumDigitsOnly', Georgia, 'Noto Serif SC', serif;
+  font-family: 'NumDigitsOnly', Georgia, 'LXGW WenKai Screen', 'Noto Serif SC', serif;
   font-weight: 400;
   font-size: 17px;
   color: var(--ink);
@@ -254,7 +254,7 @@
 
 /* Work list description — same serif stack as detail page body */
 .work-desc {
-  font-family: Georgia, 'Noto Serif SC', serif;
+  font-family: Georgia, 'LXGW WenKai Screen', 'Noto Serif SC', serif;
   font-weight: 400;
 }
 

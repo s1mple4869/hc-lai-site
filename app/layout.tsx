@@ -35,6 +35,19 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Noto+Serif+SC:wght@400&family=Noto+Sans+SC:wght@400;700&display=swap"
           rel="stylesheet"
         />
+        {/* ── A/B trial: LXGW WenKai — unicode-range sliced, loads on demand ── */}
+        {/* eslint-disable-next-line @next/next/no-page-custom-font */}
+        <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+        {/* eslint-disable-next-line @next/next/no-page-custom-font */}
+        <link
+          href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@latest/style.css"
+          rel="stylesheet"
+        />
+        {/* eslint-disable-next-line @next/next/no-page-custom-font */}
+        <link
+          href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@latest/style.css"
+          rel="stylesheet"
+        />
       </head>
       <body
         className={`${geist.variable} ${geistMono.variable} font-sans antialiased bg-cream text-ink`}
