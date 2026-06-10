@@ -35,12 +35,18 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Noto+Serif+SC:wght@400&family=Noto+Sans+SC:wght@400;700&display=swap"
           rel="stylesheet"
         />
-        {/* LXGW WenKai Screen — unicode-range sliced, loads on demand, weight 400 only */}
+        {/* LXGW WenKai Screen 400 — screen-optimised regular */}
         {/* eslint-disable-next-line @next/next/no-page-custom-font */}
         <link rel="preconnect" href="https://cdn.jsdelivr.net" />
         {/* eslint-disable-next-line @next/next/no-page-custom-font */}
         <link
           href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@latest/style.css"
+          rel="stylesheet"
+        />
+        {/* LXGW WenKai 700 — true bold for <strong>, bold-only subset */}
+        {/* eslint-disable-next-line @next/next/no-page-custom-font */}
+        <link
+          href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@latest/lxgwwenkai-bold.css"
           rel="stylesheet"
         />
       </head>

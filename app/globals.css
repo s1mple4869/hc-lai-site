@@ -170,6 +170,14 @@
   padding: 0 24px;
   text-rendering: optimizeLegibility;
   font-family: 'NumDigitsOnly', Georgia, 'LXGW WenKai Screen', 'Noto Serif SC', serif;
+  font-synthesis-weight: none;
+}
+
+/* Bold — true 700 from lxgw-wenkai-webfont (standard), no faux bold */
+.prose-works strong {
+  font-family: Georgia, 'LXGW WenKai', 'Noto Serif SC', serif;
+  font-weight: 700;
+  font-synthesis-weight: none;
 }
 
 /* H2 — Geist SemiBold (English) + Noto Sans SC Bold (Chinese) */
