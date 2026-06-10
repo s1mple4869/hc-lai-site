@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ── Chiron Sung HK — 109 unicode-range slices, variable font 200–900 ── */
+@import './fonts/chiron-sung.css';
+
 /* Digits-only face: 0-9 and numeric punctuation → Geist Mono lining figures */
 @font-face {
   font-family: 'NumDigitsOnly';
@@ -169,7 +172,7 @@
   margin: 0 auto;
   padding: 0 24px;
   text-rendering: optimizeLegibility;
-  font-family: 'NumDigitsOnly', Georgia, 'Noto Serif SC', serif;
+  font-family: 'NumDigitsOnly', Georgia, 'Chiron Sung HK', 'Noto Serif SC', serif;
 }
 
 /* H2 — Geist SemiBold (English) + Noto Sans SC Bold (Chinese) */
@@ -197,7 +200,7 @@
 
 /* Body — Georgia (English serif) + Noto Serif SC (CJK serif), 400, 17px */
 .prose-works p {
-  font-family: 'NumDigitsOnly', Georgia, 'Noto Serif SC', serif;
+  font-family: 'NumDigitsOnly', Georgia, 'Chiron Sung HK', 'Noto Serif SC', serif;
   font-weight: 400;
   font-size: 17px;
   line-height: 1.85;
@@ -211,7 +214,7 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
-  font-family: 'NumDigitsOnly', Georgia, 'Noto Serif SC', serif;
+  font-family: 'NumDigitsOnly', Georgia, 'Chiron Sung HK', 'Noto Serif SC', serif;
   font-weight: 400;
   font-size: 17px;
   color: var(--ink);
@@ -248,7 +251,7 @@
 }
 
 .prose-works td {
-  font-family: 'NumDigitsOnly', Georgia, 'Noto Serif SC', serif;
+  font-family: 'NumDigitsOnly', Georgia, 'Chiron Sung HK', 'Noto Serif SC', serif;
   font-size: 15px;
   color: var(--ink);
   padding: 12px 20px;
@@ -294,7 +297,7 @@
 
 /* Work list description — same serif stack as detail page body */
 .work-desc {
-  font-family: Georgia, 'Noto Serif SC', serif;
+  font-family: Georgia, 'Chiron Sung HK', 'Noto Serif SC', serif;
   font-weight: 400;
 }
 
