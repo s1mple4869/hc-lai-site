@@ -172,9 +172,9 @@
   font-family: 'NumDigitsOnly', Georgia, 'LXGW WenKai Screen', 'Noto Serif SC', serif;
 }
 
-/* Bold — true 700 from lxgw-wenkai-webfont (standard), no faux bold */
+/* Bold — Georgia 700 (English) + Noto Sans SC 700 (Chinese, pre-loaded, no swap delay) */
 .prose-works strong {
-  font-family: Georgia, 'LXGW WenKai', 'Noto Serif SC', serif;
+  font-family: Georgia, 'Noto Sans SC', sans-serif;
   font-weight: 700;
   font-synthesis-weight: none;
 }

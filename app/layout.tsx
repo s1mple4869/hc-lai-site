@@ -43,12 +43,6 @@ export default function RootLayout({
           href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@latest/style.css"
           rel="stylesheet"
         />
-        {/* LXGW WenKai 700 — true bold for <strong>, bold-only subset */}
-        {/* eslint-disable-next-line @next/next/no-page-custom-font */}
-        <link
-          href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@latest/lxgwwenkai-bold.css"
-          rel="stylesheet"
-        />
       </head>
       <body
         className={`${geist.variable} ${geistMono.variable} font-sans antialiased bg-cream text-ink`}
