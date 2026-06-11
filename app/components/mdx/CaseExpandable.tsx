@@ -22,8 +22,8 @@ export default function CaseExpandable({
         {title}
       </div>
 
-      {/* Scenario — italic, prose-works p styles apply */}
-      <p style={{ fontStyle: 'italic' }}>{scenario}</p>
+      {/* Scenario — prose-works p styles apply */}
+      <p>{scenario}</p>
 
       {/* Why it matters — prose-works p styles apply */}
       <p>{whyItMatters}</p>
